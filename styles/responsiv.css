@@ -1,0 +1,313 @@
+@media (min-width: 1400px) {
+    .container {
+        width: 1250px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .home__photo {
+        width: 40rem;
+        height: 40rem;
+    }
+
+    .service__box {
+        padding: 7rem 4rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .home {
+        height: 65rem;
+    }
+
+    .home__photo {
+        width: 36rem;
+        height: 36rem;
+    }
+
+    .service__box {
+        padding: 7rem 1rem;
+    }
+
+    .contactus__box-icon {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:992px) {
+
+    .nav__text-logo {
+        font-size: 5rem;
+    }
+
+    .home {
+        margin-top: 5rem;
+    }
+
+    .menu__item {
+        margin-left: 2rem;
+    }
+
+    .home .row {
+        flex-direction: column-reverse;
+    }
+
+    .home__content {
+        align-items: center;
+    }
+
+    .home__btn {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .home {
+        background-image: none;
+        height: auto;
+    }
+
+    .about {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .about__poster {
+        flex-basis: auto;
+    }
+
+    .about__content {
+        flex-basis: auto;
+    }
+
+    .about__btn {
+
+        width: 100%;
+    }
+
+    .resume-list__item::before {
+        max-width: 60rem;
+    }
+
+    .contact {
+        margin-right: auto;
+    }
+
+    :root.dark-them .home {
+        background-image: none;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    .menu {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--app-bg);
+        overflow: hidden;
+
+    }
+
+    .cover {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: hsl(0, 0%, 0%, 5%);
+        z-index: 99;
+        opacity: 1;
+        transition: all 500ms ease-in-out;
+    }
+
+    .cover--show {
+        z-index: -1;
+        opacity: 0;
+    }
+
+    .menu__item {
+        margin-left: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    .menu__item:first-child {
+        margin-top: 1rem;
+    }
+
+    .menu--open {
+        height: 0rem;
+    }
+
+    .menu-mobail {
+        display: flex;
+    }
+
+    .service__box {
+        padding: 7rem 4rem;
+    }
+
+    .resume-list__item::before {
+        max-width: 40rem;
+    }
+
+    .footer__waraper {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social-media {
+        margin-top: 1rem;
+    }
+
+
+}
+
+@media screen and (max-width:576px) {
+    * {
+        cursor: none;
+    }
+
+
+    .home__name {
+        font-size: 2rem;
+    }
+
+    .home__title {
+        font-size: 3rem;
+    }
+
+    .home__caption {
+        text-align: center;
+    }
+
+    .home__photo {
+        width: 30rem;
+        height: 30rem
+    }
+
+    .home__btn {
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+
+    .home__link {
+        width: 100%
+    }
+
+    .about__content {
+        padding: 4rem 3rem;
+    }
+
+    .service__box {
+        padding: 7rem 3rem;
+    }
+
+    .degrees__box {
+        padding: 0rem 2rem;
+    }
+
+    .resume-list__item::before {
+        max-width: 30rem;
+    }
+
+    .resume-list__title {
+        font-size: 1.8rem;
+    }
+
+    .degrees__title {
+        font-size: 1.8rem;
+    }
+
+    .degrees-Format {
+        width: 8rem;
+    }
+
+    .degrees__title::before {
+        left: -3.1rem;
+    }
+
+    .degrees-Format__caption {
+        font-size: 1.4rem;
+    }
+
+    .degrees {
+        padding: 0rem 0rem;
+    }
+
+    .contact-title {
+        font-size: 3rem;
+    }
+
+    .contact {
+        padding: 3rem 3rem;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width:327px) {
+    .home__photo {
+        width: 26rem;
+        height: 26rem;
+        border-width: 1rem;
+    }
+
+    .home__btn {
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-left: auto;
+        width: auto;
+    }
+
+    .home__name {
+        font-size: 1.7rem;
+    }
+
+    .home__title {
+        font-size: 2.7rem;
+    }
+
+    .about__content {
+        padding: 4rem 0rem;
+    }
+
+    .resume-list__item::before {
+        max-width: 25rem;
+    }
+
+    .resume-list__title {
+        font-size: 1.6rem;
+    }
+
+    .degrees__title {
+        font-size: 1.6rem;
+    }
+
+    .degrees__Smaller-title {
+        font-size: 1.4rem;
+    }
+
+    .contact {
+        padding: 3rem 3rem;
+    }
+
+    .footer__copy-right {
+        font-size: 1.4rem;
+    }
+
+
+
+}
